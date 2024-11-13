@@ -34,7 +34,8 @@ public class Question {
 	public static void main(String[] args) {
 		Question q = new Question("What number studio is this?", "8", 2);
 		q.displayPrompt();
-		System.out.println(q.checkAnswer("hi"));
 		System.out.println(q.checkAnswer("8"));
-	}
+		Question r = new Question("What number assignment was due today?", "7", 2);
+		r.displayPrompt();
+		System.out.println(r.checkAnswer("7")); }
 }
